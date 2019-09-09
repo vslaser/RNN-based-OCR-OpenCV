@@ -27,15 +27,15 @@ os.remove(filename)
 #print(text)
 
 #import datetime
-#name = "C:\\Users\\vijay.shankar\\OneDrive - Xodus Group\\Projects\\2019\\DS\\01. Actions\\Unstructured Data Management\\Image Recognition\\opencv-text-recognition\\Converted files\\" + str(datetime.datetime.now().minute) + str(datetime.datetime.now().second) + ".docx"
+#name = "Path" + str(datetime.datetime.now().minute) + str(datetime.datetime.now().second) + ".docx"
 
 '''from docx import Document
 from docx.shared import Inches
 document = Document("Document.docx")
 document.add_paragraph(text)
-document.save("C:\\Users\\vijay.shankar\\OneDrive - Xodus Group\\Projects\\2019\\DS\\01. Actions\\Unstructured Data Management\\Image Recognition\\opencv-text-recognition\\Converted files\\Document.docx")
+document.save("Path\\Document.docx")
 #document.save(name)'''
 
-with open("C:\\Users\\vijay.shankar\\OneDrive - Xodus Group\\Projects\\2019\\DS\\01. Actions\\Unstructured Data Management\\Image Recognition\\opencv-text-recognition\\Converted files\\Document.docx", "a" as file:
+with open("Path\\Document.docx", "a" as file:
 	file.write(text)
 
